@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Form Submitted </title>
+        <style>
+            body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            color: #2c3e50;
+        }
+        h2 {
+            font-size: 35px;
+            text-align: center;
+            color: #34495e;
+        }
+        .btn-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .btn-container a button {
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 6px;
+            background-color: #b5dff1;
+            border: 2px solid #444;
+            cursor: pointer;
+        }
+        </style>
+    </head>
+    <body>
+        <h1> Thank You!! </h1>
+            <h2> Your feedback has been Submitted. </h2>
+
+            <div class="btn-container">
+        <a href="{{ url_for('index') }}">
+            <button>Back to Form</button>
+        </a>
+    </div>
+
+
+</body>
+</html>
